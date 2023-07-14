@@ -1,0 +1,11 @@
+# dox flags to limit what is used
+-D doc-gen
+# main package
+--macro include('xGLfonts')
+-cp src
+# Main for Dox used
+-main xGLfonts.Main_Doc
+--no-output
+-xml output.xml
+# limit to js initial
+-js foo

@@ -1,0 +1,4 @@
+#-cmd haxe generate.hxml
+-cmd haxelib run dox -i output.xml --title "xGLfonts API documentation" -D themeColor 0xe6ffe6 --toplevel-package xGLfonts -D source-path https://github.com/nanjizal/xGLfonts/blob/main/src/
+-cmd cd pages
+-cmd firefox index.html
